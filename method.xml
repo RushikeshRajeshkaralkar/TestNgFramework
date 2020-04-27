@@ -1,0 +1,45 @@
+
+<suite name="Method">
+
+	<test name="test1">
+		<classes>
+
+			<class name="com.testng.methodrun.A">
+				<methods>
+
+					<include name="t1" />
+					<include name="t3" />
+
+				</methods>
+
+
+			</class>
+
+		</classes>
+
+
+	</test>
+
+	<test name="test2">
+
+		<classes>
+
+			<class name="com.testng.methodrun.B">
+
+				<methods>
+
+
+					<include name="t2" />
+					<include name="t4" />
+
+
+				</methods>
+
+
+			</class>
+
+		</classes>
+	</test>
+
+
+</suite>

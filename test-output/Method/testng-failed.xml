@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Method]">
+  <test name="test1">
+    <classes>
+      <class name="com.testng.methodrun.A">
+        <methods>
+          <include name="t1"/>
+          <include name="t3"/>
+        </methods>
+      </class> <!-- com.testng.methodrun.A -->
+    </classes>
+  </test> <!-- test1 -->
+  <test name="test2">
+    <classes>
+      <class name="com.testng.methodrun.B">
+        <methods>
+          <include name="t2"/>
+          <include name="t4"/>
+        </methods>
+      </class> <!-- com.testng.methodrun.B -->
+    </classes>
+  </test> <!-- test2 -->
+</suite> <!-- Failed suite [Method] -->
